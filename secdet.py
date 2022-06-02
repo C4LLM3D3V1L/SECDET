@@ -110,13 +110,13 @@ cpb = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-logo1 = '
+logo1 = '''
    _____           ____       __ 
   / ___/___  _____/ __ \___  / /_
   \__ \/ _ \/ ___/ / / / _ \/ __/
  ___/ /  __/ /__/ /_/ /  __/ /_  
 /____/\___/\___/_____/\___/\__/  \n
-                                  ────────────────────────────'
+  ────────────────────────────'''
 print logo1
 CorrectUsername = 'SecDet'
 CorrectPassword = 'Hisham'
