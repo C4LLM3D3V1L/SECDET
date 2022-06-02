@@ -110,7 +110,7 @@ cpb = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-logo1 = '\x1b\n_____           ____       __ \n / ___/___  _____/ __ \___  / /_\n\__ \/ _ \/ ___/ / / / _ \/ __/\n___/ /  __/ /__/ /_/ /  __/ /_  \n/____/\___/\___/_____/\___/\__/  \\x1b[1;97m'
+logo1 = '\x1b\n_____           ____       __ \n  / ___/___  _____/ __ \___  / /_\n  \__ \/ _ \/ ___/ / / / _ \/ __/\n ___/ /  __/ /__/ /_/ /  __/ /_  \n/____/\___/\___/_____/\___/\__/\n\n'
 print logo1
 CorrectUsername = 'SecDet'
 CorrectPassword = 'Hisham'
@@ -120,7 +120,7 @@ while loop == 'true':
     if username == CorrectUsername:
         password = raw_input('\x1b[1;92m \x1b[1;92mTool Password \x1b[1;92m:\x1b[1;92m ')
         if password == CorrectPassword:
-            print 'Login Successfull as SECDER'
+            print 'Login Successfull as SECDET'
             time.sleep(1)
             loop = 'false'
         else:
@@ -179,8 +179,6 @@ while loop == 'true':
             print logo1
             print
             print '\x1b[1;93mTYPE ANY TWO CODE'
-            print '\n'
-            print
 
             try:
                 c = raw_input('>>> ')
